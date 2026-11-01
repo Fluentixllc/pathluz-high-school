@@ -54,3 +54,6 @@ footer{background:var(--navy);color:#fff}
 @keyframes btn-glow{0%,100%{box-shadow:0 0 0 rgba(201,168,106,0)}50%{box-shadow:0 0 18px rgba(201,168,106,.6)}}
 @keyframes step-pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.06)}}
 @media (prefers-reduced-motion: reduce){.banner img,.card.joy,.hero h1,.btn,.step-num{animation:none}}
+.banner img{animation:banner-in 1s ease both, fair-pan 18s ease-in-out infinite alternate}
+@keyframes fair-pan{from{transform:scale(1)}to{transform:scale(1.04)}}
+.card.joy:hover{transform:translateY(-4px);transition:transform .3s ease}
