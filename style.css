@@ -57,3 +57,10 @@ footer{background:var(--navy);color:#fff}
 .banner img{animation:banner-in 1s ease both, fair-pan 18s ease-in-out infinite alternate}
 @keyframes fair-pan{from{transform:scale(1)}to{transform:scale(1.04)}}
 .card.joy:hover{transform:translateY(-4px);transition:transform .3s ease}
+.atmos-discover{background:linear-gradient(180deg,#FFF6E0,#FFFFFF)}
+.atmos-learn{background:linear-gradient(180deg,#EAF3F2,#FFFFFF)}
+.atmos-prepare{background:linear-gradient(180deg,#FDF0D5,#FFFFFF)}
+.atmos-check{background:linear-gradient(180deg,#E8F4F8,#FFFFFF)}
+.atmos-apply{background:linear-gradient(180deg,#EAF3F2,#FFF6E0)}
+.atmos-next{background:linear-gradient(180deg,#FFF6E0,#E8F4F8)}
+.hero{background:linear-gradient(180deg,rgba(201,168,106,.18),rgba(255,255,255,0));border-radius:18px;padding:24px}
